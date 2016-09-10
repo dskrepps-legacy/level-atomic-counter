@@ -1,0 +1,43 @@
+{
+  "name": "level-atomic-counter",
+  "version": "0.1.0",
+  "description": "Accurately keep count of entries in a levelup store.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dskrepps/level-atomic-counter.git"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "count",
+    "counter"
+  ],
+  "author": "Dylan Krepps <dskrepps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dskrepps/level-atomic-counter/issues"
+  },
+  "homepage": "https://github.com/dskrepps/level-atomic-counter#readme",
+  "devDependencies": {
+    "es6-promisify": "^4.1.0",
+    "level-sublevel": "^6.5.4",
+    "level-test": "^2.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "after": "^0.8.2",
+    "level-exists": "^2.0.1",
+    "lock": "^0.1.3"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
